@@ -11,6 +11,79 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
+* {
+    padding: 0;
+    margin: 0; }
+
+*:focus {
+    outline: none; }
+
+a {
+    transition: color 115ms;
+    cursor: pointer;
+    color: #1f9ed2;
+    text-decoration: none;
+    /* Styles for <a>'s that act as buttons. */
+    /* Styles for <a>'s that act as links. */ }
+a:hover {
+    color: #0086c9;
+    text-decoration: underline; }
+a:visited {
+    color: #1f9ed2; }
+a:active {
+    background: #5fa7d6;
+    color: #f9f9f9; }
+a[href*="http"], a[href*="."] {
+    position: relative; }
+a[href*="http"]:active, a[href*="."]:active {
+    background: inherit;
+    color: #1c8dbc; }
+a[href*="http"]:hover:before, a[href*="."]:hover:before {
+    content: attr(href);
+    display: block;
+    position: absolute;
+    top: -2em;
+    opacity: 0.95;
+    padding: 0em 0.35em 0em 0.25em;
+    background: #3e9cfd;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200 !important;
+    color: #f7f7f7;
+    letter-spacing: 0.015rem;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    border-color: #2678c6; }
+
+b {
+    font-weight: 600; }
+
+h1, h2, h3 {
+    line-height: inherit;
+    font-weight: 300; }
+
+h1 {
+    font-size: 2em; }
+
+h2 {
+    font-size: 1.15em; }
+
+h3 {
+    font-size: 1em;
+    font-weight: 400; }
+
 body {
-    margin: 0; /* Remove default margin */
-}
+    height: 100%;
+    margin-top: 4.5em;
+    background-color: #f3f3f3;
+    background: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #423ef0), color-stop(0.25, #423ef0), color-stop(1, rgba(255, 255, 255, 0))), url(http://www.webnas.com/wp-content/uploads/2013/09/parallaxbackground.jpg);
+    background: -webkit-radial-gradient(center, ellipse closest-corner, rgba(251, 251, 251, 0.825) 0%, rgba(251, 251, 251, 0.875) 25%, rgba(255, 255, 255, 0) 100%), url(http://www.webnas.com/wp-content/uploads/2013/09/parallaxbackground.jpg);
+    background: -moz-radial-gradient(center, ellipse closest-corner, rgba(251, 251, 251, 0.825) 0%, rgba(251, 251, 251, 0.875) 25%, rgba(255, 255, 255, 0) 100%), url(http://www.webnas.com/wp-content/uploads/2013/09/parallaxbackground.jpg);
+    background: -o-radial-gradient(center, ellipse closest-corner, rgba(251, 251, 251, 0.825) 0%, rgba(251, 251, 251, 0.875) 25%, rgba(255, 255, 255, 0) 100%), url(http://www.webnas.com/wp-content/uploads/2013/09/parallaxbackground.jpg);
+    background: radial-gradient(ellipse closest-corner at center, rgba(251, 251, 251, 0.825) 0%, rgba(251, 251, 251, 0.875) 25%, rgba(255, 255, 255, 0) 100%), url(http://www.webnas.com/wp-content/uploads/2013/09/parallaxbackground.jpg);
+    background-repeat: repeat;
+    background-position: center, center;
+    line-height: 1.325em;
+    font-family: "Open Sans", sans-serif;
+    font-size: 103%;
+    color: #3a3a3a; }
+
