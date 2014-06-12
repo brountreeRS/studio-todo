@@ -76,11 +76,9 @@ body {
     margin-top: 4.5em;
     background-color: #f3f3f3;
     background: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #423ef0), color-stop(0.25, #423ef0), color-stop(1, rgba(255, 255, 255, 0))), url(http://www.webnas.com/wp-content/uploads/2013/09/parallaxbackground.jpg);
-    background: -webkit-radial-gradient(center, ellipse closest-corner, rgba(251, 251, 251, 0.825) 0%, rgba(251, 251, 251, 0.875) 25%, rgba(255, 255, 255, 0) 100%), url(http://www.webnas.com/wp-content/uploads/2013/09/parallaxbackground.jpg);
-    background: -moz-radial-gradient(center, ellipse closest-corner, rgba(251, 251, 251, 0.825) 0%, rgba(251, 251, 251, 0.875) 25%, rgba(255, 255, 255, 0) 100%), url(http://www.webnas.com/wp-content/uploads/2013/09/parallaxbackground.jpg);
-    background: -o-radial-gradient(center, ellipse closest-corner, rgba(251, 251, 251, 0.825) 0%, rgba(251, 251, 251, 0.875) 25%, rgba(255, 255, 255, 0) 100%), url(http://www.webnas.com/wp-content/uploads/2013/09/parallaxbackground.jpg);
     background: radial-gradient(ellipse closest-corner at center, rgba(251, 251, 251, 0.825) 0%, rgba(251, 251, 251, 0.875) 25%, rgba(255, 255, 255, 0) 100%), url(http://www.webnas.com/wp-content/uploads/2013/09/parallaxbackground.jpg);
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-size:cover;
     background-position: center, center;
     line-height: 1.325em;
     font-family: "Open Sans", sans-serif;
